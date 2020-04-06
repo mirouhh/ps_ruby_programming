@@ -20,3 +20,11 @@ text = "#{name3.capitalize} has a health of #{health3}."
 puts text.center(50, '*')
 
 puts "#{name3.capitalize} has a health of #{health3}.".center(50, '*')
+
+name4 = "shemp"
+health4 = 90
+
+formatted_name = name4.capitalize.ljust(30, '.')
+puts "#{formatted_name} #{health4} health"
+
+puts "#{name4.capitalize.ljust(30, '.')} #{health4} health"
