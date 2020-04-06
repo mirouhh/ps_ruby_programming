@@ -28,3 +28,7 @@ formatted_name = name4.capitalize.ljust(30, '.')
 puts "#{formatted_name} #{health4} health"
 
 puts "#{name4.capitalize.ljust(30, '.')} #{health4} health"
+
+current_time = Time.new
+formatted_time = current_time.strftime("%A %m/%d/%Y at %I:%M%p")
+puts "The game started on #{formatted_time}"
