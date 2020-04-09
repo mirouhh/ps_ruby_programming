@@ -1,5 +1,9 @@
 def say_hello(name, health=100)
-	"I'm #{name.capitalize} with a health of #{health}"
+	"I'm #{name.capitalize} with a health of #{health}."
+end
+
+def time
+	Time.new.strftime("%H:%M:%S")
 end
 
 puts say_hello("larry", 60)
