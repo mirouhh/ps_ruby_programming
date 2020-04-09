@@ -1,13 +1,7 @@
-project1 = "ABC"
-funding1 = "$1000"
+def has_funding(project, funding=1250)
+	"#{project} has $#{funding} in funding."
+end
 
-puts "#{project1} has #{funding1} in funding."
-
-puts ""
-
-project2 = "LMN"
-funding2 = "$1250"
-project3 = "XYZ"
-funding3 = "$2250"
-
-puts "Projects: \n\t#{project1}\n\t#{project2}\n\t#{project3}"
+puts has_funding("ABC", 1000)
+puts has_funding("LMN")
+puts has_funding("XYZ", 1250)
