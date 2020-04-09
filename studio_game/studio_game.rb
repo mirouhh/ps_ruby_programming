@@ -12,6 +12,11 @@ class Player
 		@health -= 10
 		puts "#{@name} got blammed!"
 	end
+
+	def w00t
+		@health += 15
+		puts "#{@name} got w00ted!"
+	end
 end
 
 player1 = Player.new("moe")
