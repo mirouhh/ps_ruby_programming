@@ -11,4 +11,4 @@ end
 
 player1 = Player.new("moe")
 
-puts player1.inspect
+puts player1.say_hello
