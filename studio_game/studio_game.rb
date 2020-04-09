@@ -5,4 +5,4 @@ class Player
 	end
 end
 
-player1 = Player.new("larry", 60)
+player1 = Player.new("moe", 100)
