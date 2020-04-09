@@ -1,6 +1,6 @@
 class Player
 	def initialize(name, health)
-		@name = name
+		@name = name.capitalize
 		@health = health
 	end
 end
