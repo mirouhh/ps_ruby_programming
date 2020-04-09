@@ -28,3 +28,5 @@ puts player2.say_hello
 puts player3.say_hello
 player3.blam
 puts player3.say_hello
+player3.w00t
+puts player3.say_hello
