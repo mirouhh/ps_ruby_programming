@@ -21,3 +21,5 @@ player3 = Player.new("curly", 125)
 puts player1.say_hello
 puts player2.say_hello
 puts player3.say_hello
+player3.blam
+puts player3.say_hello
