@@ -4,7 +4,7 @@ class Player
 		@health = health
 	end
 
-	def say_hello
+	def to_s
 		"I'm #{@name} with a health of #{@health}."
 	end
 
